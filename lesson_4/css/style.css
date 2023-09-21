@@ -1,0 +1,44 @@
+@import url(reset.css);
+.title {
+  color: red;
+}
+* {
+  color: chocolate;
+}
+p {
+  color: darkgreen;
+}
+[class*="text"] {
+  color: black;
+}
+.header {
+  color: lawngreen;
+}
+.title {
+  color: red;
+}
+.header_text.text {
+  color: black;
+}
+.header_text p {
+  color: coral;
+}
+.text {
+  color: blue;
+}
+
+.main p {
+  color: black;
+}
+
+.list_content li {
+  color: red;
+}
+
+.title_2 {
+  color: red;
+}
+
+.footer p {
+  color: aqua;
+}
