@@ -1,0 +1,287 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+.maket-1 {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 25px 15px;
+}
+.block-square {
+  margin-bottom: 18px;
+}
+.square {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #40ddb6;
+}
+.text-square {
+  color: #37393f;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+}
+.block-licencing {
+  margin-bottom: 70px;
+  text-align: center;
+}
+.block-icons {
+  margin-bottom: 100px;
+}
+.block-icons p {
+  margin-bottom: 32px;
+}
+.block-photography {
+  margin-bottom: 100px;
+}
+.block-photography p {
+  color: #40ddb6;
+  margin-bottom: 24px;
+}
+.title-licencing {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.27;
+}
+.maket1-title {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21;
+  margin-bottom: 11px;
+}
+.maket1-text {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.46;
+}
+.maket1-subtitle {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.maket-1 a {
+  color: #40ddb6;
+}
+/* ======================================================================== */
+.maket-2 {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 25px 15px;
+}
+.maket2-title {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.27;
+  margin-bottom: 13px;
+}
+.maket2-text {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.46;
+  margin-bottom: 35px;
+}
+.maket2-list {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.46;
+  margin-bottom: 35px;
+  padding-left: 16px;
+}
+.maket2-listnumb {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.46;
+  margin-bottom: 35px;
+  padding-left: 16px;
+}
+/* ======================================================================== */
+.maket-3 {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 25px 15px;
+}
+.maket3-title {
+  color: #3c4242;
+  font-family: Core Sans C;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+  line-height: 1.19;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+.maket3-rectangle {
+  width: 6px;
+  height: 28px;
+  border-radius: 10px;
+  background: #8a33fd;
+  display: inline-block;
+  margin-right: 15px;
+}
+.maket3-subtitle {
+  color: #807d7e;
+  font-family: Core Sans C;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  line-height: 1.67;
+  margin-bottom: 25px;
+}
+.maket3-text {
+  color: #807d7e;
+  font-family: Causten;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.67;
+  letter-spacing: 0.4px;
+  margin-bottom: 20px;
+}
+/* ======================================================================== */
+.maket-4 {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding: 25px 15px;
+  font-family: "Cormorant Infant", serif;
+  font-size: 0;
+}
+.jewels-content {
+  display: inline-block;
+  max-width: 505px;
+  padding: 70px 0;
+  margin-right: 75px;
+}
+.jewels-label {
+  color: #d58417;
+  font-family: Cormorant Infant;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 27px;
+}
+.jewels-title {
+  color: #000;
+  font-family: Cormorant Infant;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 31px;
+}
+.jewels-text {
+  color: #606060;
+  font-family: Cormorant Infant;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.jewels-images {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0;
+}
+.jewels-imagesmall {
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #502203;
+  border-radius: 235px;
+  margin-right: 30px;
+  width: 177px;
+  height: 336px;
+}
+.jewels-imagesmall img {
+  margin-left: -10px;
+  padding-top: 14px;
+}
+.jewels-imagebig {
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #502203;
+  border-radius: 235px;
+  width: 307px;
+  height: 500px;
+}
+.jewels-imagebig img {
+  margin-left: -11px;
+  padding-top: 19px;
+}
+.maket-1,
+.maket-2,
+.maket-3,
+.maket-4,
+.practice {
+  border: 2px solid #d58417;
+  margin-bottom: 20px;
+}
+/* ======================================================================== */
+.practice {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 25px 15px;
+}
+.practice-image {
+  max-width: 1150px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.practice-bird {
+  border-left: 2px solid #f08080;
+  border-top: 3px dotted #3cb371;
+  border-right: 4px dashed #ff4500;
+  border-bottom: 6px double #008000;
+  box-shadow: inset 5px -5px 1px #c0c0c0;
+
+  margin-right: 30px;
+}
+.practice-eye {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border: 2px solid yellowgreen;
+  margin-right: 30px;
+}
+.practice-flower {
+  box-shadow: 5px -5px 1px #c0c0c0;
+  border: 1px solid #32cd32;
+  margin-right: 30px;
+}
+.practice-mouse {
+  height: 242px;
+  width: 350px;
+  box-shadow: 5px -5px 5px rgba(226, 57, 57, 0.2),
+    5px -5px 5px rgba(21, 235, 67, 0.6), 10px -10px 10px rgba(179, 32, 32, 0.7);
+}
+.practice-text {
+  max-width: 1150px;
+  margin: 0 auto;
+  font-family: Causten;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.practice-text1 {
+  opacity: 0.3;
+  margin-bottom: 20px;
+}
+.practice-text2 {
+  outline: 2px solid #32cd32;
+}
+.practice-text3 {
+  border-bottom: 2px dashed #32cd32;
+}
