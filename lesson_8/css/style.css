@@ -1,0 +1,369 @@
+@import url(fonts.css);
+@import url(reset.css);
+.practice {
+  font-family: Inter, sans-serif;
+  padding: 15px 15px;
+}
+#color {
+  background-color: mediumseagreen;
+  margin-bottom: 10px;
+}
+#bg-image {
+  /* background-image: url(../img/nature.jpg); */
+  line-height: 1.7;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat-y; */
+  /* background-position: 15px 15px; */
+  /* background-position: right bottom; */
+  /* background-attachment: scroll; */
+  /* background-attachment: fixed; */
+  /* background-size: auto auto; */
+  /* background-size: contain; */
+  /* background-size: cover; */
+  /* /* background-repeat: round; */
+  background: url(../img/nature.jpg) round;
+  margin-bottom: 10px;
+}
+#bg-gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(126, 126, 214, 1) 21%,
+    rgba(73, 73, 193, 1) 42%,
+    rgba(1, 172, 207, 1) 74%
+  );
+  margin-bottom: 10px;
+}
+#gradient-image {
+  background: url(../img/nature.jpg) center / 200px no-repeat,
+    linear-gradient(
+      90deg,
+      rgba(126, 126, 214, 1) 21%,
+      rgba(73, 73, 193, 1) 42%,
+      rgba(1, 172, 207, 1) 74%
+    );
+  margin-bottom: 30px;
+}
+/* ================================================================================================================== */
+.maket-1 {
+  max-width: 705px;
+  margin: 0 auto;
+  padding: 15px 15px;
+  margin-bottom: 40px;
+}
+.maket1-blocktitle {
+  margin-bottom: 20px;
+}
+.rectangle {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #40ddb6;
+  margin-right: 6px;
+}
+.maket1-subtext {
+  display: inline-block;
+  color: #37393f;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+.maket1-title {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21;
+}
+.maket1-blocktext {
+  margin-bottom: 20px;
+}
+.maket1-blocktext p {
+  margin-bottom: 15px;
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.46;
+}
+.maket1-list {
+  margin-bottom: 43px;
+}
+.maket-listitem {
+  margin-bottom: 23px;
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.65;
+  background: url(../img/Vector.svg) 0 3px no-repeat;
+  padding-left: 35px;
+  min-width: 27px;
+}
+.maket1-points {
+  margin-bottom: 37px;
+}
+.block-point1 {
+  display: inline-block;
+  max-width: 295px;
+  border: 1px solid #e3e3e3;
+  margin-right: 21px;
+}
+.content-point1 {
+  background: url(../img/point_1.svg) no-repeat;
+  margin: 31px 32px 32px 32px;
+  padding-left: 58px;
+}
+.point-title {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 3px;
+}
+.point-text {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.35;
+}
+.block-point2 {
+  display: inline-block;
+  max-width: 295px;
+  border: 1px solid #e3e3e3;
+  margin-right: 21px;
+}
+.content-point2 {
+  background: url(../img/point_2.svg) no-repeat;
+  margin: 31px 32px 32px 32px;
+  padding-left: 58px;
+}
+.maket1-button {
+  display: inline-block;
+  background: #6b77e5;
+  padding: 21px 27px;
+  margin-bottom: 40px;
+}
+.maket1-link {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+/* ================================================================================================================== */
+.maket-2 {
+  max-width: 1295px;
+  margin: 0 auto;
+  padding: 15px 15px;
+  margin-bottom: 40px;
+}
+.maket2-content {
+  max-width: 852px;
+  margin: 0 auto;
+  margin-bottom: 47px;
+}
+.maket2-blocktitle {
+  max-width: 154px;
+  margin: 0 auto;
+  margin-bottom: 14px;
+}
+.rectangle {
+  display: inline-block;
+  margin-right: 6px;
+}
+.maket2-subtext {
+  display: inline-block;
+  text-align: center;
+  color: #37393f;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+.maket2-title {
+  color: #37393f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.21;
+  margin-bottom: 14px;
+}
+.maket2-blocktext {
+  color: #7d7d7d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.46;
+  margin-bottom: 14px;
+}
+.maket2-projectrow {
+  margin-bottom: 58px;
+}
+.maket2-projectitem {
+  display: inline-block;
+  margin-right: 34px;
+}
+.maket2-projectimg1 {
+  width: 385px;
+  height: 501px;
+  background: url(../img/list_investment.png) no-repeat;
+  margin-bottom: 24px;
+}
+.maket2-projectimg2 {
+  width: 385px;
+  height: 501px;
+  background: url(../img/list_strategy.png) no-repeat;
+  margin-bottom: 24px;
+}
+.maket2-projectimg3 {
+  width: 385px;
+  height: 501px;
+  background: url(../img/list_consulting.png) no-repeat;
+  margin-bottom: 24px;
+}
+.maket2-projectimg4 {
+  width: 385px;
+  height: 501px;
+  background: url(../img/list_investment2.png) no-repeat;
+  margin-bottom: 24px;
+}
+.maket2-projectimg5 {
+  width: 385px;
+  height: 501px;
+  background: url(../img/list_development.png) no-repeat;
+  margin-bottom: 24px;
+}
+.maket2-projectimg6 {
+  width: 385px;
+  height: 501px;
+  background: url(../img/list_investment3.png) no-repeat;
+  margin-bottom: 24px;
+}
+.maket2-projecttitle {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.27;
+  margin-bottom: 10px;
+}
+.maket2-projectdate {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.46;
+  background: url(../img/date.svg) no-repeat;
+  padding-left: 25px;
+}
+/* ================================================================================================================== */
+
+.maket-3 {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 25px 15px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+.maket3-title {
+  color: #3c4242;
+  font-family: Core Sans C;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+  line-height: 1.19;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+.maket3-rectangle {
+  width: 6px;
+  height: 28px;
+  border-radius: 10px;
+  background: #8a33fd;
+  display: inline-block;
+  margin-right: 15px;
+}
+.maket3-subtitle {
+  color: #807d7e;
+  font-family: Core Sans C;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  line-height: 1.67;
+  margin-bottom: 25px;
+}
+.maket3-text {
+  color: #807d7e;
+  font-family: Causten;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.67;
+  letter-spacing: 0.4px;
+  margin-bottom: 20px;
+}
+/* ================================================================================================================== */
+.maket-4 {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 15px 10px;
+  margin-bottom: 20px;
+}
+.maket4_block {
+  font-size: 0px;
+  border-radius: 10px;
+}
+.maket4-bg1 {
+  display: inline-block;
+  background: url(../img/bg_1.png) center / cover no-repeat;
+  padding: 183px 74px 174px;
+  vertical-align: middle;
+  min-height: 653.54px;
+  width: 50%;
+}
+.maket4-title {
+  color: #fff;
+  font-family: Core Sans C;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 1.47;
+  letter-spacing: 0.208px;
+  margin-bottom: 30px;
+}
+.maket4-text {
+  color: #fff;
+  font-family: Causten;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+.maket4-link {
+  color: #3c4242;
+  text-align: center;
+  font-family: Causten;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 12px 44px;
+  background-color: #fff;
+}
+.maket4-bg2 {
+  display: inline-block;
+  vertical-align: middle;
+  background: url(../img/bg_2.png) center / cover no-repeat;
+  min-height: 653.54px;
+  width: 50%;
+}
