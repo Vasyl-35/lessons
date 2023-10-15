@@ -1,0 +1,520 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+main {
+  padding: 20px 20px;
+}
+.block-1 {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 20px 15px;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.block1-title {
+  font-weight: 600;
+  font-size: 35px;
+}
+.block1-list {
+  padding-left: 25px;
+}
+.block1-item {
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 25px;
+  background: url(../img/Vector.svg) no-repeat;
+  padding-left: 35px;
+}
+.block1-button {
+  display: inline-block;
+  text-align: center;
+  padding: 15px 25px;
+  line-height: 1.1;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #6b77e5;
+  text-transform: uppercase;
+}
+.block1-text {
+  line-height: 1.3;
+}
+
+.block-1 *:not(:last-child) {
+  margin-bottom: 25px;
+}
+.block1-text a:hover {
+  font-size: 22px;
+  color: #6b77e5;
+}
+.block1-text a:active {
+  font-size: 22px;
+  color: #838596;
+}
+.block1-text a:visited {
+  font-size: 22px;
+  color: #333fad;
+}
+.block1-text a:focus {
+  outline: 1px solid #6b77e5;
+}
+
+.block1-item:hover {
+  opacity: 0.6;
+  font-size: 27px;
+}
+.block1-button:hover {
+  padding: 17px 27px;
+  font-size: 18xp;
+  background-color: #838596;
+}
+.block1-button:active {
+  background-color: black;
+}
+.block1-text > a:after {
+  content: "";
+  background: url(../img/link_icon_142996.svg) no-repeat;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: bottom;
+}
+.block1-text::before {
+  content: "";
+  display: inline-block;
+  background: url(../img/Vector.svg) no-repeat;
+  height: 27px;
+  width: 27px;
+  vertical-align: bottom;
+}
+.block1-text:hover::before {
+  opacity: 0.6;
+}
+.block1-text > a:hover::after {
+  opacity: 0.6;
+}
+.block1-list li:last-of-type {
+  color: #6b77e5;
+}
+.block1-list li:first-of-type {
+  color: #838596;
+}
+.block-1 p:last-child {
+  color: #838596;
+}
+/* ============================================================================================================================================== */
+.game-block {
+  max-width: 650px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 25px 25px;
+  border: 1px solid #6b77e5;
+}
+.game-block1 {
+  width: 50px;
+  height: 20px;
+  text-align: center;
+  line-height: 1.2;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  background-color: #6b77e5;
+}
+
+.game-block2 {
+  width: 600px;
+  height: 40px;
+  background-color: #6b77e5;
+  visibility: hidden;
+}
+.game-block1:hover ~ .game-block2,
+.game-block2:hover {
+  visibility: visible;
+}
+.game-block3 {
+  width: 40px;
+  height: 200px;
+  background-color: #6b77e5;
+  margin-left: 560px;
+  visibility: hidden;
+}
+.game-block2:hover ~ .game-block3,
+.game-block3:hover {
+  visibility: visible;
+}
+.game-block4 {
+  width: 250px;
+  height: 30px;
+  background-color: #6b77e5;
+  visibility: hidden;
+  margin-left: 350px;
+}
+.game-block3:hover ~ .game-block4,
+.game-block4:hover {
+  visibility: visible;
+}
+.game-block5 {
+  width: 25px;
+  height: 150px;
+  background-color: #838596;
+  visibility: hidden;
+  margin-left: 350px;
+}
+.game-block4:hover ~ .game-block5,
+.game-block5:hover {
+  visibility: visible;
+}
+.game-block6 {
+  height: 20px;
+  width: 375px;
+  background-color: #838596;
+  visibility: hidden;
+}
+.game-block5:hover ~ .game-block6,
+.game-block6:hover {
+  visibility: visible;
+}
+.game-block7 {
+  width: 50px;
+  height: 20px;
+  text-align: center;
+  line-height: 1.2;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  background-color: #6b77e5;
+}
+.game-block6:hover ~ .game-block7 {
+  background-color: #838596;
+}
+.game-block7:hover {
+  background-color: red;
+}
+/* ============================================================================================================================================== */
+.block-2 {
+  max-width: 725px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 15px 15px;
+}
+.title {
+  font-family: "Poppins", sans-serif;
+  color: #37393f;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.27;
+  margin-bottom: 5px;
+}
+.text {
+  font-family: "Inter", sans-serif;
+  color: #7d7d7d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.46;
+  margin-bottom: 20px;
+}
+.subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 1.27;
+  color: #6b77e5;
+  font-size: 20px;
+}
+.content_column .subtitle {
+  margin: 42px 0 12px 0;
+}
+.content_column {
+  margin-bottom: 40px;
+}
+.content_row {
+  margin-bottom: 50px;
+}
+.block2-img {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 25px;
+}
+.content_list {
+  display: inline-block;
+}
+.content_list .title {
+  font-size: 25px;
+}
+.content_list .subtitle {
+  color: #40ddb6;
+  margin: 15px 0 21px 0;
+}
+.list {
+  color: #7d7d7d;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.list li {
+  line-height: 1.2;
+  vertical-align: middle;
+}
+.list li:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+.list li::before {
+  content: "";
+  background: url(../img/Vector.svg) no-repeat;
+  height: 27px;
+  width: 27px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 16px;
+}
+/* ============================================================================================================================================== */
+.block-3 {
+  max-width: 725px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 15px 15px;
+}
+.block3-content {
+  margin-bottom: 48px;
+}
+.block3-subcontainer {
+  margin-bottom: 16px;
+}
+.block3-rectangle {
+  width: 12px;
+  height: 12px;
+  background: #40ddb6;
+  display: inline-block;
+}
+.block3-subttext {
+  color: #37393f;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  display: inline-block;
+}
+.block3-title {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  max-width: 443px;
+  margin-bottom: 10px;
+}
+.block3-text {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.46;
+}
+.block3-content p:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+.block3-points {
+  margin-bottom: 48px;
+}
+.block3-point {
+  border: 1px solid #e3e3e3;
+  padding: 28px 41px 28px 38px;
+}
+.block3-point:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+.block3-pointtitle {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.block3-pointtitle h3::before {
+  content: "";
+  background: url(../img/Vector.svg);
+  width: 27px;
+  height: 27px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 16px;
+}
+.block3-pointtext {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.46;
+}
+.block3-button {
+  display: inline-block;
+  padding: 21px 35px 22px 35px;
+  background: #6b77e5;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+.block3-button:hover {
+  background-color: #37393f;
+}
+/* ============================================================================================================================================== */
+.block-4 {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 15px 15px;
+  margin-bottom: 50px;
+}
+.block4-titlecontainer {
+  text-align: center;
+  margin-bottom: 41px;
+}
+.block4-subcontainer {
+  margin-bottom: 16px;
+}
+.block4-rectangle {
+  width: 12px;
+  height: 12px;
+  background: #40ddb6;
+  display: inline-block;
+}
+.block3-subttext {
+  color: #37393f;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.block4-title {
+  color: #37393f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.blokc4-items {
+  font-size: 0px;
+  text-align: center;
+}
+.block4-item {
+  max-width: 386px;
+  padding: 0px 43px 58px 43px;
+  background: #f4f4f4;
+  display: inline-block;
+}
+.block4-item img {
+  margin-bottom: 22px;
+  margin-top: -33px;
+}
+.block4-item:not(:last-of-type) {
+  margin-right: 31px;
+}
+.block4-itemtitle {
+  color: #37393f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.27;
+}
+.block4-itemtext {
+  color: #7d7d7d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.46;
+  margin-bottom: 37px;
+}
+.block4-link {
+  color: #6b77e5;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.block4-link:hover {
+  text-decoration: underline;
+  font-size: 20px;
+  color: #40ddb6;
+}
+/* ============================================================================================================================================== */
+
+.blocck-5 {
+  max-width: 1245px;
+  margin: 0 auto;
+  padding: 15px 15px;
+  font-size: 0px;
+}
+.block5-title {
+  display: inline-block;
+  color: #000;
+  font-family: Cormorant Infant;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.2;
+  max-width: 488px;
+  margin-right: 5px;
+}
+.block5-title::after {
+  content: "";
+  width: 304px;
+  height: 3px;
+  background: #78473b;
+  display: block;
+}
+.block5-item1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 45px;
+}
+.block5-itemimg {
+  margin-bottom: 34px;
+  border: 1px solid #000;
+}
+.block5-itemimg img {
+  margin-top: 9px;
+  margin-bottom: -9px;
+  margin-right: -10px;
+  margin-left: 10px;
+}
+.block5-itemimg img:hover {
+  opacity: 0.5;
+}
+.block5-itemtext {
+  color: #000;
+  font-family: Cormorant Infant;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.block5-itemtext p:hover {
+  color: #78473b;
+}
+.block5-item2 {
+  display: inline-block;
+  vertical-align: middle;
+}
+.block5-itemtitle {
+  color: #000;
+  font-family: Cormorant Infant;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.13;
+  max-width: 339px;
+  margin-bottom: 31px;
+}
+.block5-itemtitle:first-of-type {
+  margin-bottom: 5px;
+}
