@@ -1,0 +1,238 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+.wrapper > main {
+  flex-grow: 1;
+}
+[class*="__container"] {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 60px;
+}
+
+.header {
+  padding-top: 34px;
+  padding-bottom: 31px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.header_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 1 auto;
+}
+.header_logo {
+  display: inline-flex;
+  cursor: pointer;
+}
+.header_search {
+  border-radius: 8px;
+  background: #f6f6f6;
+  padding: 12px 48px;
+  display: inline-flex;
+  cursor: pointer;
+}
+.header_search::before {
+  content: "";
+  background: url(../img/search.png);
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+.header_search p {
+  color: #807d7e;
+  text-align: center;
+  font-family: Causten;
+  font-size: 18px;
+  font-weight: 500;
+}
+.header_language {
+  display: inline-flex;
+  color: #333;
+  font-family: Causten;
+  font-size: 18px;
+  font-weight: 400;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.header_language::after {
+  content: "";
+  background: url(../img/vector_header.png);
+  margin-left: 19px;
+  width: 10px;
+  height: 5px;
+  display: inline-flex;
+}
+.language {
+  position: relative;
+}
+.language__list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  padding-top: 5px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #3c4242;
+  visibility: hidden;
+}
+.header_language:hover .language__list {
+  visibility: visible;
+}
+.language__item {
+  padding: 5px;
+}
+.language__link:hover {
+  text-decoration: underline;
+}
+.header_buttons {
+  display: flex;
+  gap: 29px;
+  align-items: center;
+  cursor: pointer;
+}
+.header_button1 {
+  display: inline-flex;
+  padding: 12px 48px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #8a33fd;
+}
+.header_button1:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+  color: #fff;
+}
+.header_button1 p {
+  color: #fff;
+  text-align: center;
+  font-family: Causten;
+  font-size: 18px;
+  font-weight: 500;
+}
+.header_button2 {
+  display: inline-flex;
+  padding: 12px 48px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #3c4242;
+}
+.header_button2 p {
+  color: #8a33fd;
+  text-align: center;
+  font-family: Causten;
+  font-size: 18px;
+  font-weight: 500;
+}
+.header_button2:hover {
+  border: 1px solid #8a33fd;
+  text-decoration: underline;
+}
+/* =================================================================================================================================================================================== */
+.main {
+  margin-top: 150px;
+}
+.consulting-form__container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.consulting-form__text {
+  display: flex;
+  column-gap: 6px;
+  justify-content: center;
+  margin-bottom: 16px;
+  color: #37393f;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+}
+.consulting-form__text::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: #40ddb6;
+}
+.consulting-form__title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  color: #37393f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.consulting-form__form {
+  display: flex;
+  flex-wrap: wrap;
+  color: #37393f;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  column-gap: 30px;
+  row-gap: 28px;
+}
+.consulting-form__form input {
+  border: 1px solid #ddd;
+  background: #f8f8f8;
+}
+.form-consulting {
+}
+.form-consulting__name {
+  width: 591px;
+  height: 65px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  padding: 21px 40px;
+}
+.form-consulting__email {
+  width: 594px;
+  height: 65px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  padding: 21px 40px;
+}
+.form-consulting__phone {
+  width: 591px;
+  height: 65px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  padding: 21px 40px;
+}
+.form-consulting__subject {
+  width: 594px;
+  height: 65px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  padding: 21px 40px;
+}
+.form-consulting__area {
+  width: 100%;
+  min-height: 222px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #ddd;
+  background: #f8f8f8;
+  color: #37393f;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+.form-consulting__button {
+}
